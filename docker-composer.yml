@@ -1,0 +1,24 @@
+version: '3'
+services:
+    packages.ffc-components:
+        build:
+            context: ./vendor/laravel/sail/runtimes/8.2
+            dockerfile: DockerFile
+            args:
+                WWWGROUP: '${WWWGROUP}'
+        image: sail-8.2/app
+        extra_hosts:
+            - 'host.docker.internal:host-gateway'
+        ports:
+            - 80
+            - 443
+        volumes:
+            - '.:/var/www/html'
+            - '/home/tim/.config/composer/auth.json:/root/.config/composer/auth.json'
+        networks:
+            - packages.fcc-components
+
+networks:
+    packages.fcc-components:
+        name: packages.fcc-components
+        driver: bridge

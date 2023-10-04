@@ -1,0 +1,44 @@
+{
+    "name": "titantwentyone/fcc-components",
+    "description": "Common components for use with the package titantwentyone/filament-content-components",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Titantwentyone\\FCCComponents\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tim Smith",
+            "email": "tim.smith@titan21.co.uk"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/titantwentyone/filament-content-components.git"
+        },
+        {
+            "type": "composer",
+            "url": "https://filament-media-library-pro.composer.sh"
+        }
+    ],
+    "require-dev": {
+        "laravel/sail": "^1.25"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.2",
+        "titantwentyone/filament-content-components": "^3.0",
+        "spatie/laravel-package-tools": "^1.16",
+        "ralphjsmit/laravel-filament-media-library": "^3.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Titantwentyone\\FCCComponents\\FCCComponentsServiceProvider"
+            ]
+        }
+    }
+}
