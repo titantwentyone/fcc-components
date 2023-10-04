@@ -15,6 +15,7 @@ services:
         volumes:
             - '.:/var/www/html'
             - '/home/tim/.config/composer/auth.json:/root/.config/composer/auth.json'
+            - '/home/tim/Documents/code/laravel/packages/titantwentyone/filament-content-components:/opt/packages/titantwentyone/filament-content-components'
         networks:
             - packages.fcc-components
 

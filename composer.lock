@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0bde2a35817ee797df70c56efcde05a",
+    "content-hash": "fd2e5b402b8e5fc29acdbe277e556edf",
     "packages": [
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -8740,16 +8740,16 @@
         },
         {
             "name": "titantwentyone/filament-content-components",
-            "version": "3.0",
+            "version": "3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/titantwentyone/filament-content-components.git",
-                "reference": "21cca7600abd6cd6aeb07ace6cea832d7be1bde1"
+                "reference": "12881fa1d39000a1d975466253c5f6669f71afd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/titantwentyone/filament-content-components/zipball/21cca7600abd6cd6aeb07ace6cea832d7be1bde1",
-                "reference": "21cca7600abd6cd6aeb07ace6cea832d7be1bde1",
+                "url": "https://api.github.com/repos/titantwentyone/filament-content-components/zipball/12881fa1d39000a1d975466253c5f6669f71afd3",
+                "reference": "12881fa1d39000a1d975466253c5f6669f71afd3",
                 "shasum": ""
             },
             "require": {
@@ -8806,10 +8806,10 @@
             ],
             "description": "Basic framework for collecting and displaying content through Filament",
             "support": {
-                "source": "https://github.com/titantwentyone/filament-content-components/tree/3.0",
+                "source": "https://github.com/titantwentyone/filament-content-components/tree/3.1",
                 "issues": "https://github.com/titantwentyone/filament-content-components/issues"
             },
-            "time": "2023-10-02T16:06:02+00:00"
+            "time": "2023-10-04T18:43:00+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -9168,9 +9168,9 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": [],
-    "prefer-stable": true,
+    "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.2"
