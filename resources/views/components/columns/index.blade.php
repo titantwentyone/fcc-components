@@ -36,7 +36,7 @@
 {{--    {{ $slot }}--}}
 {{--</div>--}}
 @props([
-    'column_count',
+    'column_count' => 2,
     'contained' => true,
     'expand_left' => false,
     'expand_right' => false,

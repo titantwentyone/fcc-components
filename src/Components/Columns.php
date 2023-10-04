@@ -13,7 +13,7 @@ class Columns extends \Titantwentyone\FilamentContentComponents\Contracts\Conten
 {
     use \Titantwentyone\FilamentContentComponents\Contracts\CanRenderView;
 
-    protected static $view = 'fcc::content.columns';
+    protected static $view = 'fccc::content.columns';
 
     public static function getField(): array
     {
