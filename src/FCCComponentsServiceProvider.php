@@ -12,7 +12,8 @@ class FCCComponentsServiceProvider extends PackageServiceProvider
     public function configurePackage(Package $package): void
     {
         $package->name('fcc-components')
-            ->hasViews('fccc');
+            ->hasViews('fccc')
+            ->hasViewComponent('columns', \Titantwentyone\FCCComponents\View\Components\Content\Columns::class);
     }
 
     public function bootingPackage()

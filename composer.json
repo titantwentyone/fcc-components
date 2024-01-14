@@ -37,7 +37,7 @@
     },
     "require": {
         "php": "^8.2",
-        "titantwentyone/filament-content-components": "^3.0",
+        "titantwentyone/filament-content-components": "^3.0|@dev",
         "spatie/laravel-package-tools": "^1.16",
         "ralphjsmit/laravel-filament-media-library": "^3.2"
     },
